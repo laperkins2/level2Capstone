@@ -2,6 +2,8 @@
 
 A dynamic website with user interaction and data from an external API
 
+![Live site]<https://laperkins2.github.io/level2Capstone/>
+
 ## Project Description
 
 My project will require user interaction capturing inputted data. The data inputted will use BALLDONTLIE API to fetch a nba player from the api and display his measurements. The APi only fetches 25 players in the nba alphabetically. I will provide a list of players that the api uses so that we can test the api.
