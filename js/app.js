@@ -46,7 +46,14 @@ document
         console.error('Error:', error);
       });
   });
-document.getElementById('clearButton').addEventListener('click', function () {
-  document.getElementById('playerList').innerHTML = '';
+function clearData() {
   document.getElementById('playerInfo').innerHTML = '';
-});
+  document.getElementById('firstName').value = '';
+  document.getElementById('lastName').value = '';
+}
+document
+  .getElementById('clearButton')
+  .addEventListener('click', function (event) {
+    event.preventDefault();
+    clearData();
+  });
